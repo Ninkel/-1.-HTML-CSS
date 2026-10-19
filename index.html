@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop — Запись на услугу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Barbershop">
+            </a>
+
+            <nav class="navigation">
+                <a href="#">Услуги</a>
+                <a href="#">Галерея</a>
+                <a href="#">Команда</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Этапы записи -->
+    <section class="steps">
+        <div class="steps-container">
+
+            <div class="step">
+                <span class="step-number completed">1</span>
+                <span class="step-line"></span>
+            </div>
+
+            <div class="step">
+                <span class="step-number completed">2</span>
+                <span class="step-line"></span>
+            </div>
+
+            <div class="step">
+                <span class="step-number active">3</span>
+                <span class="step-line"></span>
+            </div>
+
+            <div class="step">
+                <span class="step-number">4</span>
+                <span class="step-line"></span>
+            </div>
+
+            <div class="step">
+                <span class="step-number">5</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Основная часть -->
+    <main class="booking">
+
+        <div class="booking-container">
+
+            <div class="booking-title">
+                <a href="#" class="back-button">‹</a>
+                <h1>Дата и время</h1>
+            </div>
+
+            <div class="booking-content">
+
+                <!-- Календарь -->
+                <section class="calendar">
+
+                    <div class="calendar-header">
+                        <h2>Июнь 2025</h2>
+
+                        <div class="calendar-controls">
+                            <button class="calendar-arrow" aria-label="Предыдущий месяц">
+                                ‹
+                            </button>
+                            <button class="calendar-arrow" aria-label="Следующий месяц">
+                                ›
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="calendar-grid">
+
+                        <div class="weekday">Пн</div>
+                        <div class="weekday">Вт</div>
+                        <div class="weekday">Ср</div>
+                        <div class="weekday">Чт</div>
+                        <div class="weekday">Пт</div>
+                        <div class="weekday">Сб</div>
+                        <div class="weekday">Вс</div>
+
+                        <div class="day muted">26</div>
+                        <div class="day muted">27</div>
+                        <div class="day muted">28</div>
+                        <div class="day muted">29</div>
+                        <div class="day muted">30</div>
+                        <div class="day">31</div>
+        <div class="day">1</div>
+
+                        <button class="day selected">2</button>
+                        <button class="day">3</button>
+                        <button class="day">4</button>
+                        <button class="day">5</button>
+                        <button class="day">6</button>
+                        <button class="day">7</button>
+                        <button class="day">8</button>
+
+                        <button class="day">9</button>
+                        <button class="day">10</button>
+                        <button class="day">11</button>
+                        <button class="day">12</button>
+                        <button class="day">13</button>
+                        <button class="day">14</button>
+                        <button class="day">15</button>
+
+                        <button class="day">16</button>
+                        <button class="day">17</button>
+                        <button class="day">18</button>
+                        <button class="day">19</button>
+                        <button class="day">20</button>
+                        <button class="day">21</button>
+                        <button class="day">22</button>
+
+                    </div>
+                </section>
+
+                <!-- Выбор времени -->
+                <section class="time-section">
+
+                    <h2>Доступное время</h2>
+
+                    <div class="time-grid">
+
+                        <button class="time-slot selected">10:00</button>
+
+                        <button class="time-slot booked">
+                            11:00
+                            <span>Занято</span>
+                        </button>
+
+                        <button class="time-slot selected">12:00</button>
+
+                        <button class="time-slot booked">
+                            13:00
+                            <span>Занято</span>
+                        </button>
+
+                        <button class="time-slot selected">14:00</button>
+
+                        <button class="time-slot">15:00</button>
+
+                        <button class="time-slot booked">16:00</button>
+
+                        <button class="time-slot">17:00</button>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+            <!-- Продолжение -->
+            <div class="booking-actions">
+                <button class="next-button">Далее</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-main">
+
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Barbershop">
+                </div>
+
+                <div class="footer-contacts">
+                    <h2>Контакты</h2>
+
+                    <p>
+                        <span class="contact-icon">⌖</span>
+                        ул. Садовая, 15, Москва
+                    </p>
+
+                    <p>
+                        <span class="contact-icon">☎</span>
+                        +7 (495) 123-45-67
+                    </p>
+                </div>
+
+                <div class="footer-hours">
+                    <h3>Режим работы</h3>
+
+                    <p>Пн–Пт: 9:00 – 21:00</p>
+                    <p>Сб–Вс: 10:00 – 19:00</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>© 2026. Все права защищены.</p>
+
+                <a href="#">Политика конфиденциальности</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
